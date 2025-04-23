@@ -64,6 +64,7 @@ button.signin {
   border: none;
   font-family: "Comfortaa";
   font-size: 1rem;
+  cursor: pointer;
 }
 
 button.signin:hover {
@@ -193,4 +194,161 @@ footer h2 {
 footer ul li {
   text-align: center;
   padding: 15px 0;
+}
+
+@media (min-width: 900px) {
+  /* ====================
+    GERAL
+   ====================*/
+
+  section {
+    padding: 5%;
+    text-align: center;
+  }
+
+  section h1 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+
+  section h2 {
+    font-size: 0.8em;
+    margin: 10px 0;
+    color: #888888;
+  }
+
+  /* ====================
+    HEADER
+   ====================*/
+
+  header {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    font-size: 0.8rem;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+
+    transition: 0.15s;
+  }
+
+  header a:hover {
+    color: #0e8388;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+
+  header ul li {
+    display: inline-block;
+    padding: 15px 0;
+  }
+
+  header button.signin {
+    color: white;
+    background-color: #0e8388;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Comfortaa";
+    font-size: 0.8rem;
+  }
+
+  button.signin:hover {
+    background-color: #0d494b;
+
+    transition: 0.15s;
+  }
+
+  /* ====================
+    REGISTER
+   ====================*/
+
+  section.register {
+    margin: 0;
+    text-align: center;
+  }
+
+  section.register img {
+    max-width: 100%;
+  }
+
+  section.register h2 {
+    font-size: 0.8em;
+    margin: 10px 0;
+    color: #888888;
+  }
+
+  section.register button.signin {
+    color: white;
+    background-color: #0e8388;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Comfortaa";
+    font-size: 0.8rem;
+  }
+
+  section.register button.signin:hover {
+    background-color: #0d494b;
+
+    transition: 0.15s;
+  }
+
+  /* ====================
+    PRODUCTS
+   ====================*/
+
+  section.products {
+    text-align: center;
+    background-color: #cbe4de;
+  }
+
+  section.products li {
+    display: inline-block;
+    margin: 30px 10px;
+    width: 30%;
+  }
+
+  div.produto {
+    text-align: center;
+    background-color: white;
+    line-height: 130%;
+    border-radius: 10px;
+
+    transition: 0.15s;
+    cursor: pointer;
+  }
+
+  div.produto:hover {
+    background-color: #fafafa;
+  }
+
+  div.produto span {
+    color: #888888;
+    background-color: #efefef;
+    border-radius: 100%;
+    font-size: 1.8rem;
+    padding: 20px;
+    margin: 30px 10px 10px 10px;
+  }
+
+  div.produto h3 {
+    font-size: 1rem;
+  }
+
+  div.produto p {
+    font-size: 0.8rem;
+    color: #888888;
+    line-height: 150%;
+    padding: 10% 20%;
+  }
 }
