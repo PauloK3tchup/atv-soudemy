@@ -1,0 +1,196 @@
+/* ====================
+    GERAL
+   ====================*/
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  font-family: "Comfortaa";
+}
+
+section {
+  padding: 5% 20px;
+  text-align: center;
+}
+
+section h1 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+section h2 {
+  font-size: 0.8em;
+  margin: 10px 0;
+  color: #888888;
+}
+
+/* ====================
+    HEADER
+   ====================*/
+
+header {
+  text-align: center;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+
+  transition: 0.15s;
+}
+
+header a:hover {
+  color: #0e8388;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+header ul li {
+  text-align: center;
+  padding: 15px 0;
+}
+
+button.signin {
+  color: white;
+  background-color: #0e8388;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 10px;
+  border: none;
+  font-family: "Comfortaa";
+  font-size: 1rem;
+}
+
+button.signin:hover {
+  background-color: #0d494b;
+
+  transition: 0.15s;
+}
+
+/* ====================
+    REGISTER
+   ====================*/
+
+section.register {
+  margin: 10% 0;
+  text-align: center;
+}
+
+section.register img {
+  max-width: 100%;
+}
+
+section.register h2 {
+  font-size: 0.8em;
+  margin: 10px 0;
+  color: #888888;
+}
+
+/* ====================
+    PRODUCTS
+   ====================*/
+
+section.products {
+  text-align: center;
+  background-color: #cbe4de;
+}
+
+section.products li {
+  margin: 15px 0;
+}
+
+div.produto {
+  padding: 0 15%;
+  text-align: center;
+  background-color: white;
+  line-height: 130%;
+  border-radius: 10px;
+
+  transition: 0.15s;
+}
+
+div.produto:hover {
+  background-color: #fafafa;
+}
+
+div.produto span {
+  color: #888888;
+  background-color: #efefef;
+  border-radius: 100%;
+  font-size: 1.8rem;
+  padding: 15px;
+  margin: 10px;
+}
+
+div.produto h3 {
+  font-size: 1rem;
+}
+
+div.produto p {
+  font-size: 0.8rem;
+  color: #888888;
+  line-height: 130%;
+  padding: 15px 0;
+}
+
+/* ====================
+    WEBSITES
+   ====================*/
+
+section.websites img {
+  max-width: 100%;
+  margin: 20px 0;
+}
+
+section.websites h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+section.websites p {
+  font-size: 0.8em;
+  margin: 10px 0;
+  color: #888888;
+}
+
+/* ====================
+    FOOTER
+   ====================*/
+
+footer {
+  text-align: center;
+  background-color: #cbe4de;
+  padding: 5% 0;
+}
+
+footer a {
+  color: #888888;
+  text-decoration: none;
+
+  transition: 0.15s;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer h1 {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+footer h2 {
+  font-size: 0.8em;
+  margin: 10px 0;
+  color: #888888;
+}
+
+footer ul li {
+  text-align: center;
+  padding: 15px 0;
+}
