@@ -18,12 +18,20 @@ section {
 section h1 {
   font-size: 1.3rem;
   margin: 10px 0;
+  font-weight: bold;
 }
 
 section h2 {
   font-size: 0.8em;
   margin: 10px 0;
   color: #888888;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 /* ====================
@@ -312,9 +320,14 @@ footer ul li {
     background-color: #cbe4de;
   }
 
+  section.products ul {
+    margin: 4% 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
   section.products li {
-    display: inline-block;
-    margin: 30px 10px;
     width: 30%;
   }
 
@@ -350,5 +363,63 @@ footer ul li {
     color: #888888;
     line-height: 150%;
     padding: 10% 20%;
+  }
+
+  /* ====================
+    WEBSITES
+   ====================*/
+
+  section.websites div.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0;
+  }
+
+  section.websites div.texto {
+    width: 40%;
+    padding: 10% 10%;
+  }
+
+  section.websites div.foto {
+    width: 40%;
+  }
+
+  /* ====================
+    FOOTER
+   ====================*/
+  footer {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cbe4de;
+    padding: 1% 5%;
+  }
+
+  footer a {
+    color: #888888;
+    text-decoration: none;
+    font-size: 0.7rem;
+    transition: 0.15s;
+  }
+
+  footer a:hover {
+    color: black;
+  }
+
+  footer h1 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+  }
+
+  footer h2 {
+    font-size: 0.7em;
+    margin: 10px 0;
+    color: #888888;
+  }
+
+  footer ul li {
+    text-align: center;
+    padding: 15px 15px;
+    display: inline-block;
   }
 }
